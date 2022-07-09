@@ -40,7 +40,7 @@ const toggleMode = ()=>{
  <Navbar title = "TextUtils" mode = {mode} toggleMode = {toggleMode}/>
  <Alert alert ={alert}/>
 <div className="container my-3">
-<TextForm heading = "Enter the Text to analyze" mode={mode}/>
+<TextForm heading = "Enter the Text to analyze" mode={mode} showAlert={showAlert}/>
 {/* <About/> */}
 </div>
 
