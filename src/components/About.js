@@ -21,7 +21,7 @@ const toggleStyle = ()=>{
    {
     setmyStyle ({
         color: 'white',
-        backgroundColor: 'black'
+        backgroundColor: '#042743'
     })
     setBtnText("Enable light Mode")
    }
